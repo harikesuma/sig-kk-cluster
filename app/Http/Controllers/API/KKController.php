@@ -59,7 +59,7 @@ class KKController extends Controller
          }catch(Exception $e){ 
 
             return response()->json([
-                'msg' => $e->getMessage(),
+                'msg' => "errors",
             ], 500);
          }
 
